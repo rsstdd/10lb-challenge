@@ -1,0 +1,22 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-size: 24px;
+  color: white;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.header {
+  background-color: darkred;
+  height: 90px;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 15%;
+  /*overflow: hidden;*/
+}

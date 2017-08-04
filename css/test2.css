@@ -1,0 +1,35 @@
+span {
+  margin: 0, auto;
+  padding: 20px;
+  
+}
+
+/*.wrapper {
+  /*margin: 0, auto;
+}*/
+
+.resize {
+  margin: 0px 1.5px;
+  display: inline-block;
+  float: left;
+  width: 31.965%;
+  padding: 0 10px;
+  background: #ccc;
+  text-align: center;
+}
+
+.resize:first-of-type {
+  padding-left: 0;
+}
+
+.resize:last-of-type {
+  padding-right: 0;
+}
+
+.resize div {
+  background-color: darkgray;
+}
+
+pre {
+  color: white;
+}

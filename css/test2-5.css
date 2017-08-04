@@ -1,0 +1,35 @@
+.flex-content { 
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.resize {
+  width: auto;
+  background-color: darkgray;
+  min-height: 250px;
+}
+
+.last .middle .first {
+  margin-right: 25px;
+}
+
+pre {
+  color: white;
+  padding: 5px;
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  line-height: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
