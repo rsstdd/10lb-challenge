@@ -1,5 +1,6 @@
+'use strict';
+
 (() => {
-  'use strict';
 
   function outerHeight(el, includeMargin){
     let height = el.offsetHeight;

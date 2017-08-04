@@ -1,7 +1,8 @@
-(function() {
-  'use strict';
+'use strict';
+
+(() => {
+
   function resizeImage(){
-    //Resize Bottom Right Image
     const image = document.getElementsByTag("img");
     const imageParentElement = document.getElementsByClassName('.image');
     const widthRatio = imageParentElement.offsetWidth / imageRatio.width;
@@ -46,7 +47,6 @@
     let rowDivs = new Array();
     let el;
     let topPosition = 0;
-    // const elements = document.querySelectorAll('div');
 
     forEachElement(container, function(el){
       console.log(container);

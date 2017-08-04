@@ -7,6 +7,12 @@ html, body {
   width: 100%;
 }
 
+p {
+  font-size: 1em;
+  font-weight: 200;
+  line-height: 1.2
+}
+
 h1 {
   font-size: 24px;
   color: white;
@@ -22,5 +28,9 @@ h1 {
 .wrapper {
   width: 100%;
   min-height: 15%;
-  /*overflow: hidden;*/
+}
+
+.container {
+  width: 60%;
+  margin: 5% 20%;
 }
