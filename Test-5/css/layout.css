@@ -1,0 +1,145 @@
+/*-------------------------------------------------*\
+	FOR YOUR HELP
+
+	Font Family Used: Open Sans
+	Font Weights Used: 300, 400, and 600
+	
+	Font Sizes/Weights:
+	Banner: 70px/600
+	Titles: 45px/600
+	Subtitle: 30px/300
+	Boxes: 45px/600
+	Body Copy: 18px/400;
+
+	Colors:
+	Red: #B13629;
+	Light Gray: #9D9D9D;
+	Gray: #515151;
+
+	Light Gray Background: #F4F4F4;
+
+	Use bootstraps classes for as much as possible
+	or makes sense for things like containers, grids,
+	ect...
+
+	Use bootstraps default padding and margins for all
+	elements (columns, header, paragraphs, ect...)
+
+	Don't worry about matching things to the
+	exact height, but use the above as guidelines
+
+
+\*-------------------------------------------------*/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  background-color: #F4F4F4;
+}
+
+/*<------- Nav ----->*/
+.navbar {
+  height: 90px;
+  margin-bottom: 0;
+}
+
+nav.navbar.red {
+  height: 100px;
+  padding-top: .5%;
+}
+
+.navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+
+.subtitle {
+  color: #B13629;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+/*<------- Titles ----->*/
+h2 {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.titles {
+  color: #B13629;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+
+/*<------- Jumbotron ----->*/
+.jumbotron {
+  background-image: url('../imgs/banner.jpg');
+  background-size: cover;
+}
+
+.jumbo-image {
+  height: 350px;
+}
+
+.jumbo-image h1 {
+  padding-top: 9%;
+  font-size: 70px;
+  font-weight: 600;
+  color: white;
+}
+
+
+/*<------- Boxes ----->*/
+.boxes {
+  margin-top: 15%;
+  padding: 50px 0px 50px 0px; 
+}
+
+.boxes h4 {
+  font-size: 45px;
+  font-weight: 600;  
+  color: white;
+}
+
+
+/*<------- Middle Section ----->*/
+.middle-section {
+  padding-top: 5%;
+  height: 450px;
+}
+
+
+/*<------- Bottom Section ----->*/
+.bottom-section {
+  background-color: #9D9D9D;
+  height: 450px; 
+  pading: 20px;
+  padding-top: 10%;
+  margin-top: 5%;
+}
+
+
+/*<------- Image ----->*/
+.rounded-image {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  margin-left: 30%
+}
+
+
+/*<------- Colors ----->*/
+.red {
+  background-color: #cc0000;
+}
+
+.gray {
+  color: #515151;
+}
